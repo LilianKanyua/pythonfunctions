@@ -14,14 +14,14 @@ def student_infor(** kwargs):
     for key,value in kwargs.items():
         print(f"{key}:{value}")
 
-
+# question one
 def concatenate_args(*statements):
     added =" "
     for statement in statements:
         added+=statement
     print(added)
     
-
+# question2
 def concatenate_kwargs(**kwargs):
     single_string=" "
     for key,value in kwargs.items():
